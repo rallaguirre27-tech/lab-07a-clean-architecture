@@ -1,1 +1,3 @@
-2026-11-20T22:35:26.258387300 | Cuenta creada | Titular: rall | Saldo inicial: S/ 20.0
+2026-11-20T23:36:42.537457800 | Cuenta creada | Titular: Ana | Saldo inicial: S/ 1000
+2026-11-20T23:38:34.272596900 | Titular: Ana | Deposito: S/200 | Saldo actual: S/1200
+2026-11-20T23:39:07.907592100 | Titular: Ana | Retiro: S/150 | Saldo actual: S/1050
