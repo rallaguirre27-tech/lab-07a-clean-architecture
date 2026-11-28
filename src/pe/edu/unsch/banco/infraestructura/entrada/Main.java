@@ -1,19 +1,26 @@
-package pe.edu.unsch.banco;
+package pe.edu.unsch.banco.infraestructura.entrada;
 
 import pe.edu.unsch.banco.aplicacion.CuentaService;
-import pe.edu.unsch.banco.aplicacion.MovimientoRepository;
-import pe.edu.unsch.banco.infraestructura.ArchivoMovimientoRepository;
+import pe.edu.unsch.banco.aplicacion.puertos.CuentaUseCase;
+import pe.edu.unsch.banco.aplicacion.puertos.MovimientoRepository;
+import pe.edu.unsch.banco.infraestructura.salida.ArchivoMovimientoRepository;
+import pe.edu.unsch.banco.infraestructura.salida.MemoriaMovimientoRepository;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        MovimientoRepository repositorio = new ArchivoMovimientoRepository();
-        CuentaService servicio = new CuentaService(repositorio);
+        // Prueba A: archivo TXT
+        // MovimientoRepository repositorio = new ArchivoMovimientoRepository();
+
+        // Prueba B: memoria (comenta la linea de arriba y descomenta esta para cambiar de adaptador)
+        MovimientoRepository repositorio = new MemoriaMovimientoRepository();
+
+        CuentaUseCase servicio = new CuentaService(repositorio);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Nota: movimientos.txt registra el historial de movimientos; al reiniciar no se restaura automaticamente la cuenta.");
+        System.out.println("Nota: el almacenamiento configurado registra el historial de movimientos; al reiniciar no se restaura automaticamente la cuenta.");
 
         int opcion;
         do {
@@ -75,4 +82,6 @@ public class Main {
         }
     }
 }
+
+
 

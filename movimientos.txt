@@ -1,3 +1,6 @@
 2026-11-20T23:36:42.537457800 | Cuenta creada | Titular: Ana | Saldo inicial: S/ 1000
 2026-11-20T23:38:34.272596900 | Titular: Ana | Deposito: S/200 | Saldo actual: S/1200
 2026-11-20T23:39:07.907592100 | Titular: Ana | Retiro: S/150 | Saldo actual: S/1050
+2026-11-27T21:02:02.783124900 | Cuenta creada | Titular: Juan Perez | Saldo inicial: S/ 1000
+2026-11-27T21:02:43.288547900 | Titular: Juan Perez | Deposito: S/500 | Saldo actual: S/1500
+2026-11-27T21:04:18.821257900 | Titular: Juan Perez | Retiro: S/200 | Saldo actual: S/1300

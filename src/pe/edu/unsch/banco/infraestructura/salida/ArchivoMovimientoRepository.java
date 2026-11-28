@@ -1,7 +1,7 @@
 
-package pe.edu.unsch.banco.infraestructura;
+package pe.edu.unsch.banco.infraestructura.salida;
 
-import pe.edu.unsch.banco.aplicacion.MovimientoRepository;
+import pe.edu.unsch.banco.aplicacion.puertos.MovimientoRepository;
 
 import java.io.FileWriter;
 import java.io.IOException;
