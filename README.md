@@ -15,13 +15,13 @@
 ### Ejecución desde IntelliJ IDEA
 1. Abre la carpeta `BancoInicial` en IntelliJ IDEA.
 2. Verifica que `src` esté marcada como **Sources Root**.
-3. Ejecuta la clase `pe.edu.unsch.banco.Main`.
+3. Ejecuta la clase `pe.edu.unsch.banco.infraestructura.entrada.Main`.
 
 ### Ejecución desde consola (Git Bash)
 ```bash
 mkdir -p out/refactor
 javac -d out/refactor $(find src/pe/edu/unsch/banco -name "*.java")
-java -cp out/refactor pe.edu.unsch.banco.Main
+java -cp out/refactor pe.edu.unsch.banco.infraestructura.entrada.Main
 Operaciones disponibles
 Registrar cuenta
 

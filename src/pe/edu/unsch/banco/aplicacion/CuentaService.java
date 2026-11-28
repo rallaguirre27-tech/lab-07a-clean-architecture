@@ -1,5 +1,6 @@
 package pe.edu.unsch.banco.aplicacion;
 
+import pe.edu.unsch.banco.aplicacion.puertos.MovimientoRepository;
 import pe.edu.unsch.banco.dominio.CuentaBancaria;
 
 import java.math.BigDecimal;

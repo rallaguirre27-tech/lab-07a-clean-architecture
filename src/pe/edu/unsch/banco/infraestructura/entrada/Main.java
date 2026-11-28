@@ -1,8 +1,8 @@
-package pe.edu.unsch.banco;
+package pe.edu.unsch.banco.infraestructura.entrada;
 
 import pe.edu.unsch.banco.aplicacion.CuentaService;
-import pe.edu.unsch.banco.aplicacion.MovimientoRepository;
-import pe.edu.unsch.banco.infraestructura.ArchivoMovimientoRepository;
+import pe.edu.unsch.banco.aplicacion.puertos.MovimientoRepository;
+import pe.edu.unsch.banco.infraestructura.salida.ArchivoMovimientoRepository;
 
 import java.math.BigDecimal;
 import java.util.Scanner;
